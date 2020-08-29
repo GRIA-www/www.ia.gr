@@ -122,12 +122,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset-md{
-	margin-top:50px;
-}
-
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -227,18 +221,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1140px;
 }
 .navbar-brand img{
-	width:256px;
+	width:384px;
 	height:256px;
-}
-.img-style{
-	width:512px;
-	height:512px;
-}
-.img-motto-join-style{
-	width:512px;
 }
 .link-style{
 	height:128px;
+}
+.img-iamadewithlo-style{
+	width:128px;
+	height:256px;
+}
+.img-bloc-2-style{
+	width:256px;
+}
+.img-iaitsherepar-style{
+	width:768px;
+}
+.img-4-style{
+	width:768px;
 }
 
 /* = Colour
@@ -314,28 +314,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 991px){
 	.navbar-brand img{
-		width:128px;
-		height:128px;
-	}
-	.img-style{
 		width:256px;
-		height:256px;
-	}
-	.img-motto-join-style{
-		width:256px;
+		height:180px;
 	}
 	
 	/* MD Row Margin Offsets */
-	.voffset-md{
-		margin-top:30px;
+	.voffset-clear-md{
+		margin-top:0;
 	}
 	
 }
 
 @media (max-width: 575px){
-	.img-style{
-		height:256px;
-		width:256px;
+	.img-bloc-2-style{
+		width:128px;
 	}
 	
 }
