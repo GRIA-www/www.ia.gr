@@ -237,13 +237,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-iaitsherepar-style{
 	width:768px;
 }
-.img-4-style{
-	width:768px;
+.img-32-style{
+	;
 }
 
 /* = Colour
 -------------------------------------------------------------- */
 
+/* Background colour styles */
+
+.bgc-tangerine-yellow{
+	background-color:#FECB02;
+}
 
 /* Bloc image backgrounds */
 
@@ -317,10 +322,34 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:256px;
 		height:180px;
 	}
+	.img-iacontactpho-style{
+		width:200px;
+		height:200px;
+	}
+	.img-31-style{
+		width:200px;
+		height:200px;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
 		margin-top:0;
+	}
+	
+}
+
+@media (max-width: 767px){
+	.img-iacontactpho-style{
+		width:200px;
+		height:200px;
+	}
+	.img-31-style{
+		width:150px;
+		height:150px;
+	}
+	.img-bttn-messeng-style{
+		width:150px;
+		height:150px;
 	}
 	
 }
