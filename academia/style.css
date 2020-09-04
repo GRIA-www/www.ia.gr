@@ -248,8 +248,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:150px;
 }
 .img-bttn-pho-style{
-	width:150px;
-	height:150px;
+	;
 }
 
 /* = Colour
@@ -348,6 +347,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:150px;
 		height:150px;
 	}
+	.img-bttn-pho-style{
+		;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
@@ -367,15 +369,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-bttn-messeng-style{
 		width:120px;
-		height:120px;
+		height:109px;
 	}
 	.img-bloc-0-style{
 		width:300px;
 		height:150px;
 	}
 	.img-bttn-pho-style{
-		width:120px;
-		height:120px;
+		height:109px;
 	}
 	
 }
@@ -388,12 +389,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		height:150px;
 	}
 	.img-bttn-pho-style{
-		width:60px;
-		height:60px;
+		width:45px;
+		height:45px;
 	}
 	.img-bttn-messeng-style{
-		width:60px;
-		height:60px;
+		height:45px;
 	}
 	
 }
