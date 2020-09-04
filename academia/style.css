@@ -38,8 +38,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 50px;
+.bloc-md{
+	padding:50px;
 }
 
 /* = Full Screen Blocs 
@@ -222,7 +222,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .navbar-brand img{
 	width:384px;
-	height:256px;
+	height:384px;
 }
 .link-style{
 	height:128px;
@@ -239,6 +239,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-32-style{
 	;
+}
+.img-bloc-0-style{
+	;
+}
+.img-bttn-messeng-style{
+	width:150px;
+	height:150px;
+}
+.img-bttn-pho-style{
+	width:150px;
+	height:150px;
 }
 
 /* = Colour
@@ -320,7 +331,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 991px){
 	.navbar-brand img{
 		width:256px;
-		height:180px;
+		height:256px;
 	}
 	.img-iacontactpho-style{
 		width:200px;
@@ -329,6 +340,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-31-style{
 		width:200px;
 		height:200px;
+	}
+	.img-bloc-0-style{
+		;
+	}
+	.img-bttn-messeng-style{
+		width:150px;
+		height:150px;
 	}
 	
 	/* MD Row Margin Offsets */
@@ -348,8 +366,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		height:150px;
 	}
 	.img-bttn-messeng-style{
-		width:150px;
+		width:120px;
+		height:120px;
+	}
+	.img-bloc-0-style{
+		width:300px;
 		height:150px;
+	}
+	.img-bttn-pho-style{
+		width:120px;
+		height:120px;
 	}
 	
 }
@@ -357,6 +383,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 575px){
 	.img-bloc-2-style{
 		width:128px;
+	}
+	.img-bloc-0-style{
+		height:150px;
+	}
+	.img-bttn-pho-style{
+		width:60px;
+		height:60px;
+	}
+	.img-bttn-messeng-style{
+		width:60px;
+		height:60px;
 	}
 	
 }
